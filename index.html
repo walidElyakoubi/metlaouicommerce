@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plateforme Métlaoui</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenue sur la plateforme des commerçants de Métlaoui</h1>
+    <nav>
+      <button data-category="tous">Tous</button>
+      <button data-category="commerces">Commerces</button>
+      <button data-category="restaurants">Restaurants</button>
+      <button data-category="services">Services</button>
+      <a href="formulaire.html">S’inscrire</a>
+    </nav>
+  </header>
+
+  <main id="vendor-list">
+    <!-- Commerçants seront injectés ici via JS -->
+  </main>
+
+  <footer>
+    <p>© 2025 Plateforme Métlaoui. Tous droits réservés.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="data/vendors.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

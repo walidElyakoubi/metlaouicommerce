@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #004d40;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  margin-top: 10px;
+}
+nav button, nav a {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background: white;
+  color: #004d40;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+main {
+  padding: 20px;
+}
+.vendor {
+  background: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.vendor img {
+  width: 150px;
+}
+footer {
+  background: #004d40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
